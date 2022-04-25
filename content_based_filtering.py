@@ -94,7 +94,7 @@ def get_recommend(customer_id, scores):
     ordered = prev_dropped.sort_values(ascending=False)   
     return ordered, customer_prev_items
 
-k = 12
+k = 10
 customer_id = scores.index
 
 #rcmnds, prev_items = get_recommend(customer_id, scores)
